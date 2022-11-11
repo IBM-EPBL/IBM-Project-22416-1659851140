@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    
+    <link rel="stylesheet" href="assignment3.css"></link>
+
+</head>
+<h1> Images with css file</h1>
+<body>
+    <script>
+		window.watsonAssistantChatOptions = {
+		  integrationID: "d8c5c59c-3e1f-4cfd-84dd-3d04dd0853cd", // The ID of this integration.
+		  region: "us-south", // The region your integration is hosted in.
+		  serviceInstanceID: "5ed71154-8ec7-49c1-8357-771d3f911d3b", // The ID of your service instance.
+		  onLoad: function(instance) { instance.render(); }
+		};
+		setTimeout(function(){
+		  const t=document.createElement('script');
+		  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+		  document.head.appendChild(t);
+		});
+	  </script>
+    <div class="container">
+
+	<div class="gallery">
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://s3.jp-tok.cloud-object-storage.appdomain.cloud/thor123/wall%20paper%205.png">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://s3.jp-tok.cloud-object-storage.appdomain.cloud/thor123/wall%20paper%206.png">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://s3.jp-tok.cloud-object-storage.appdomain.cloud/thor123/wallpaper2.png">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://s3.jp-tok.cloud-object-storage.appdomain.cloud/thor123/wallpaper4.png">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://s3.jp-tok.cloud-object-storage.appdomain.cloud/thor123/wallpapre3.png">
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
