@@ -1,0 +1,11 @@
+1.	Flask
+2.	ibm_db2
+3.	Python Idle
+4.	Anaconda
+5.	Spyder
+6.	CLI Driver
+7.	Sendgrid
+8.	Watson Assistant
+9.	Object container registry
+10.	Kubernetes
+
